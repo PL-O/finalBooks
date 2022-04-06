@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  height: 60px;
+  border-bottom: 1px solid rgb(197, 195, 195);
+  padding-top: 12px;
+}
+
+.logo{
+  width: 15%;
+  margin-left: 25%;
+}
+
+.logo img{
+  width: 150px;
+  margin-top: -13%;
+  cursor: pointer;
+}
+
+.boxSearch{
+    width: 20%;
+    margin-left: 20%;
+    display: flex;
+}
+
+.boxSearch input{
+    width: 90%;
+    height: 30px;
+    margin-top: 2.5%;
+    border: 1px solid rgb(155, 154, 154);
+    border-radius: 25px;
+    padding-left: 4%;
+    font-size: 16px;
+    outline: none;
+}
+
+.boxSearch button{
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 30%;
+    height: 35px;
+    border: 1px solid rgb(155, 154, 154);
+    background-color: rgb(209, 208, 208);
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.boxSearch button:hover{
+    background-color: rgb(168, 167, 167);
+}
+
+.boxSearch button{
+    cursor: pointer;
+}
+
+.menu-section{
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 2%;
+    border: 1px solid silver;
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+.img-section{
+    width: 100%;
+}
+
+.img-section img{
+    width: 280px;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 5%;
+    
+}
+
+.img-section p{
+    margin-left: 2%;
+}
+
+.icon-section{
+    width: 20%;
+    margin-left: 3%;
+    display: flex;
+}
+
+.icon-section h2{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.text-section{
+    width: 100%;
+}
+
+.text-section p{
+    margin-left: 5%;
+}
